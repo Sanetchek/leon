@@ -1,0 +1,31 @@
+/* Corenavi */
+nav.pagination {
+    text-align: center;
+    .page-numbers {
+        padding: 0 10px;
+    }
+    .post-navigation {        
+        margin-bottom: 50px;
+    }
+}
+
+h2.screen-reader-text {
+    font-size: 1.2em;
+    font-weight: unset;
+    font-family: 'OswaldBold', 'Helvetica', sans-serif;
+}
+
+.nav-previous,
+.nav-next {
+    display: inline-block;
+}
+
+.nav-next {
+    float: right;
+    text-align: right;
+}
+
+.nav-links div a span:first-child {
+    font-weight: bold;
+    display: block;
+}

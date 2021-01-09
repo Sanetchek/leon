@@ -1,0 +1,208 @@
+/* General style */
+* {
+    font-family: $ff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4em;
+    letter-spacing: 0.01em;
+}
+
+body {
+    font-weight: $fwlight;
+    height: 100%;
+    color: #000;
+    min-width: 320px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    img {
+        border: none;
+    }
+}
+
+.wrapper {
+    max-width: 1200px;
+    min-width: 320px;
+    width: 96%;
+    margin: 0 auto;
+    position: relative;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 36px;
+    height: 36px;
+    margin: 0;
+    padding: 0 25px 1px;
+    cursor: pointer;
+    border: 1px solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+
+.button,
+.button-secondary {
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+}
+
+.button:hover {
+    box-shadow: none;
+    padding-top: 1px;
+    padding-bottom: 0;
+}
+
+.button-cancel {
+    background: #b1331e;
+    color: white;
+}
+
+.button-primary {
+    background: $primebuttom;
+    color: #fff;
+}
+
+input:not([type]),
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="tel"],
+input[type="url"],
+input[type="text"],
+input[type="search"],
+input[type="submit"] {    
+    max-width: 300px;
+    width: 100%;
+    height: 36px;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.breadcrumbs {
+    margin: 2%;
+}
+
+hr {
+    border: none;
+    color: #232222;
+    background-color: #232222;
+    height: 1px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        max-width: 970px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .wrapper {
+        max-width: 750px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        max-width: none;
+    }
+}
+
+/* Content style */
+.content {
+    p {
+        padding: 15px 0;
+    }
+    ul {
+        margin-left: 5%;
+        list-style: square;
+    }
+    li {
+        padding: 10px 0 10px 3%;
+        font-size: 1em;
+    }
+    h2, h3, h4, h5, h6 {
+        padding: 20px 0 15px 0;
+    }
+    table {
+        margin: 25px 0;
+    }
+    th {
+        padding: 12px;
+        background-color: #ddd;
+    }
+    tr:hover {
+        background-color: #ddd !important;
+    }
+    td, tr {
+        padding: 8px;
+    }
+}
+
+.wp-block-pullquote {
+    border-top: 4px solid #555d66;
+    border-bottom: 4px solid #555d66;
+    margin-bottom: 28px;
+    color: #40464d;
+}
+
+.wp-block-pullquote cite,
+.wp-block-quote cite {
+    text-transform: capitalize;
+    font-size: 0.8em;
+    color: #6c7781;
+}
+
+.wp-block-quote {
+    border-left: 4px solid #000;
+    margin: 0 0 28px;
+    padding-left: 1em;
+}
+
+section.error-404.not-found {
+    text-align: center;
+    margin-bottom: $mbottom;
+
+    .not-found-search {
+        margin-top: 25px;
+
+        p {
+            margin-bottom: 15px;
+        }
+    }
+}

@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Leon\n"
+"POT-Creation-Date: 2021-01-09 19:11+0200\n"
+"PO-Revision-Date: 2021-01-09 19:11+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:7
+msgid "Oops! Эта страница не найдена."
+msgstr "Oops! Ця сторінка не знайдена."
+
+#: 404.php:10
+msgid "Похоже ничего не найдено. Воспользуйтесь поиском."
+msgstr "Схоже нічого не знайдено. Скористайтеся пошуком."
+
+#: comments/function-comments.php:83
+msgid "Отправка сообщения..."
+msgstr "Відправка повідомлення..."
+
+#: comments/function-comments.php:100
+#, php-format
+msgid "%s <span class=\"says\">:</span>"
+msgstr "%s <span class=\"says\">:</span>"
+
+#: comments/function-comments.php:103
+msgid "Комментарий на модерации"
+msgstr "Коментар на модерації"
+
+#. translators: 1: date, 2: time
+#: comments/function-comments.php:110
+#, php-format
+msgid "%1$s в %2$s"
+msgstr "%1$s в %2$s"
+
+#: comments/function-comments.php:111 comments/function-comments.php:128
+msgid " (Изменить)"
+msgstr "(Змінити)"
+
+#: comments/function-comments.php:128
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: comments/template-parts/content-comments.php:41
+msgid "Чтобы оставить комментарий войдите или зарегистрируйтесь."
+msgstr "Щоб залишити коментар увійдіть або зареєструйтеся."
+
+#: comments/template-parts/content-comments.php:53
+msgid "Напишите свой комментарий"
+msgstr "Напишіть свій коментар"
+
+#: comments/template-parts/content-comments.php:56
+msgid "Написать"
+msgstr "Написати"
+
+#: comments/template-parts/content-comments.php:57
+msgid "Поделитесь мыслями!"
+msgstr "Поділіться думками!"
+
+#: comments/template-parts/content-comments.php:59
+#, php-format
+msgid "Ответить %s или "
+msgstr "Відповісти %s або"
+
+#: comments/template-parts/content-comments.php:60
+msgid " Отменить"
+msgstr "Скасувати"
+
+#: customize/inc/function-admin-menu.php:10
+#: customize/inc/function-admin-menu.php:22
+msgid "Пользовательские Настройки Темы"
+msgstr "Призначені для користувача Налаштування Теми"
+
+#: customize/inc/function-admin-menu.php:23
+msgid "Настройка"
+msgstr "Налаштування"
+
+#: customize/inc/functions/admin/admin-settings.php:1
+msgid "Настройка темы"
+msgstr "Налаштування теми"
+
+#: customize/inc/functions/function-general-settings.php:24
+msgid "Внешний вид"
+msgstr "Зовнішній вигляд"
+
+#: customize/inc/functions/function-general-settings.php:32
+msgid "Favicon"
+msgstr "Favicon"
+
+#: customize/inc/functions/function-general-settings.php:37
+msgid "Логотип сайта"
+msgstr "Логотип сайта"
+
+#: customize/inc/functions/function-general-settings.php:38
+msgid "Картинка банера"
+msgstr "Зображення банера"
+
+#: customize/inc/functions/function-general-settings.php:39
+#: customize/inc/functions/function-general-settings.php:123
+msgid "Адрес"
+msgstr "Адреса"
+
+#: customize/inc/functions/function-general-settings.php:40
+msgid "Возле Адреса"
+msgstr "Біля Адреси"
+
+#: customize/inc/functions/function-general-settings.php:41
+msgid "Телефон"
+msgstr "Телефон"
+
+#: customize/inc/functions/function-general-settings.php:42
+#: customize/inc/functions/function-general-settings.php:149
+msgid "Режим работы"
+msgstr "Режим роботи"
+
+#: customize/inc/functions/function-general-settings.php:43
+#: customize/inc/functions/function-general-settings.php:160
+msgid "Facebook"
+msgstr "Facebook"
+
+#: customize/inc/functions/function-general-settings.php:44
+#: customize/inc/functions/function-general-settings.php:166
+msgid "Instagram"
+msgstr "Instagram"
+
+#: customize/inc/functions/function-general-settings.php:48
+msgid "Страница редактирования информации в Банере"
+msgstr "Сторінка редагування інформації у банері"
+
+#: customize/inc/functions/function-general-settings.php:57
+msgid "Загрузить favicon"
+msgstr "Завантажити Favicon"
+
+#: customize/inc/functions/function-general-settings.php:83
+msgid "Загрузить Логотип шапки"
+msgstr "Завантажити Логотип шапки"
+
+#: customize/inc/functions/function-general-settings.php:90
+msgid "Загрузить Логотип подвала"
+msgstr "Завантажити Логотип підвалу"
+
+#: customize/inc/functions/function-general-settings.php:111
+msgid "Загрузить картинку"
+msgstr "Завантажити зображення"
+
+#: customize/inc/functions/function-general-settings.php:129
+msgid "метро Дружбы Народов"
+msgstr "метро Дружби Народів"
+
+#: customize/inc/functions/function-general-settings.php:140
+#: customize/inc/functions/function-general-settings.php:141
+#: customize/inc/functions/function-general-settings.php:142
+msgid "Номер телефона"
+msgstr "Номер телефону"
+
+#: functions.php:181
+msgid "Main Sidebar"
+msgstr "Main Sidebar"
+
+#: functions.php:183
+msgid "Widgets in this area will be shown on all posts and pages."
+msgstr ""
+"Віджети в цій області відображатимуться на всіх публікаціях та сторінках."
+
+#: inc/functions-plugins.php:15
+msgid "Главная"
+msgstr "Головна"
+
+#: inc/functions-plugins.php:17
+#, php-format
+msgid "Результаты поиска по запросу \"%s\""
+msgstr "Результати пошуку на запит \"%s\""
+
+#: inc/functions-plugins.php:18
+#, php-format
+msgid "Записи с тегом \"%s\""
+msgstr "Публікації з тегом \"%s\""
+
+#: inc/functions-plugins.php:19
+#, php-format
+msgid "Статьи автора %s"
+msgstr "Публікації автора \"%s\""
+
+#: inc/functions-plugins.php:20
+msgid "Ошибка 404"
+msgstr "Помилка 404"
+
+#: inc/functions-plugins.php:21
+#, php-format
+msgid "Страница %s"
+msgstr "Сторінка: \"%s\""
+
+#: inc/functions-plugins.php:22
+#, php-format
+msgid "Страница комментариев %s"
+msgstr "Сторінка коментарів %s"
+
+#: searchform.php:4
+msgid "Что найти &hellip; ?"
+msgstr "Що знайти &hellip; ?"
+
+#: searchform.php:6
+msgid "Найти"
+msgstr "Знайти"
+
+#: template-parts/footer/content-footer.php:32
+#: template-parts/header/header-main.php:19
+msgid "Логотип"
+msgstr "Логотип"
+
+#: template-parts/page/content-banner.php:8
+#: template-parts/page/content-banner.php:11
+msgid "Salon Leon"
+msgstr "Salon Leon"
+
+#: template-parts/page/content-poslugy.php:37
+msgid "Узнать больше"
+msgstr "Дізнатися більше"
+
+#: template-parts/post/content-post.php:26
+msgid "Предыдущая страница: "
+msgstr "Попередня сторінка: "
+
+#: template-parts/post/content-post.php:27
+msgid "Следующая страница: "
+msgstr "Наступна сторінка: "
+
+#: template-parts/post/content-post.php:28
+msgid "Страница: "
+msgstr "Сторінка: "
+
+#. Theme Name of the plugin/theme
+msgid "Leon"
+msgstr "Leon"
+
+#. Description of the plugin/theme
+msgid "Leon Beauty Salon Theme"
+msgstr "Leon Beauty Salon Theme"
+
+#. Author of the plugin/theme
+msgid "Aleksandr Gryshko"
+msgstr "Aleksandr Gryshko"

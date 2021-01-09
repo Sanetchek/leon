@@ -1,0 +1,74 @@
+.yellow-underline {
+    position: relative;
+    top: -5px;
+    background-color: $yellow;
+    width: 157px;
+    height: 2px;
+}
+
+.y-text {
+    color: $yellow;
+}
+
+.hsize {
+    font-size: 45px;
+}
+
+#page-contacts {
+        margin-bottom: $mbottom;
+
+    .wp-block-columns {
+        margin: $mbottom 0;
+
+        .adress-icon {
+            font-size: 25px;
+        }
+
+        .phone-icon {
+            font-size: 21px;
+        }
+
+        .adress-icon, .phone-icon {
+            display: inline-block;
+            margin-left: 7px;
+            margin-right: 18px;
+        }
+
+        .clock-icon {            
+            margin-right: 15px;
+        }
+
+        .address, .mode {
+            margin-bottom: 25px;
+        }
+
+        .address, .phone-number, .mode {
+            display: -ms-grid;
+            display: grid;
+            -ms-grid-columns: 1fr 10fr;
+            grid-template-columns: 1fr 10fr;
+            align-items: center;
+        }
+
+        .social-icon a:nth-child(n+2) {
+            margin-left: 32px;
+        }
+    }
+}
+
+
+
+
+
+#content-page {
+    background: url(assets/images/about-bg.jpg) no-repeat fixed center;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    margin-bottom: $mbottom;
+    color: #fff;
+
+    .content-about {
+        padding: 0 7%;
+    }
+}

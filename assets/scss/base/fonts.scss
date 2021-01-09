@@ -1,0 +1,135 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800&display=swap');
+
+@font-face {
+  font-family: 'leon';
+  src:  url('assets/fonts/leon.eot?8rji1y');
+  src:  url('assets/fonts/leon.eot?8rji1y#iefix') format('embedded-opentype'),
+    url('assets/fonts/leon.ttf?8rji1y') format('truetype'),
+    url('assets/fonts/leon.woff?8rji1y') format('woff'),
+    url('assets/fonts/leon.svg?8rji1y#leon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="leon-"], [class*=" leon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'leon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.leon-call:before {
+  content: "\e900";
+}
+.leon-clock .path1:before {
+  content: "\e901";
+  color: rgb(234, 177, 77);
+}
+.leon-clock .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(228, 149, 66);
+}
+.leon-clock .path3:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(244, 251, 255);
+}
+.leon-clock .path4:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(218, 241, 244);
+}
+.leon-clock .path5:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(54, 94, 125);
+}
+.leon-clock .path6:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.leon-clock .path7:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.leon-clock .path8:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.leon-clock .path9:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.leon-clock .path10:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.leon-clock .path11:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.leon-clock .path12:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.leon-clock .path13:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.leon-clock .path14:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.leon-clock .path15:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.leon-clock .path16:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.leon-clock .path17:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.leon-facebook .path1:before {
+  content: "\e912";
+  color: rgb(66, 103, 178);
+}
+.leon-facebook .path2:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.leon-instagram:before {
+  content: "\e914";
+}
+.leon-logo:before {
+  content: "\e915";
+}
+.leon-pin:before {
+  content: "\e916";
+}

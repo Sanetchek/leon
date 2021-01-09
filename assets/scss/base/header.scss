@@ -1,0 +1,171 @@
+#header {
+    position: relative;
+	margin-bottom: $mbottom;
+
+    .banner {
+	    position: relative;
+	    overflow: hidden;
+	    min-height: 700px;
+
+	    @media screen and (max-width: 950px) {	    	
+    		min-height: 600px;
+	    }
+
+	    @media screen and (max-width: 800px) {	    	
+    		min-height: 450px;
+	    }
+
+	    > img {
+		    position: absolute;
+		    width: 100%;
+
+		    @media screen and (max-width: 1480px) {
+		    	width: 120%;
+		    	left: -10%;
+		    }
+
+		    @media screen and (max-width: 1200px) {
+		    	width: 140%;
+		    	left: -20%;
+		    }
+
+		    @media screen and (max-width: 1040px) {
+		    	width: 160%;
+		    	left: -30%;
+		    }
+
+		    @media screen and (max-width: 590px) {
+		    	width: 200%;
+		    	left: -50%;
+		    }
+
+		    @media screen and (max-width: 470px) {
+		    	width: 240%;
+		    	left: -70%;
+		    }
+
+		    @media screen and (max-width: 380px) {
+		    	width: 280%;
+		    	left: -90%;
+		    }
+		}
+	}
+
+	.header-info {
+	    position: absolute;
+	    top: 23px;
+	    width: 100%;
+	    color: $yellow;
+
+	    .right {
+	    	@media screen and (max-width: 680px) {
+	    		display: none;
+	    	}
+	    }
+	}
+
+	.left.header-log-height {
+	    margin-top: 10px;
+	}
+
+	a.logo {
+		color: $yellow;
+
+		span {
+			font-size: 5em;
+			margin-left: 30px;
+		}
+	}
+
+	.icon-lr {
+		margin: 0 10px;
+	}
+
+	.header-address {
+		margin-bottom: 20px;
+	}
+
+	.header-phone {
+	    text-align: right;
+	    a {
+		    color: $yellow;
+		}
+	}
+
+	.header-nav {
+		width: 100%;
+		height: 66px;
+    	background-color: rgba(75, 74, 93, 0.44);
+	    position: absolute;
+	    bottom: 50px;
+    	text-align: center;
+
+    	nav.main-menu {
+    		@media screen and (max-width: 992px) {
+    			display: none;
+    			position: relative;
+    			bottom: -66px;
+    		}
+    	}
+
+	    nav.main-menu ul li {
+		    display: inline-block;
+		    font-weight: $fwsemi;
+		    font-size: 20px;
+    		margin-left: -.21em; 
+
+    		&.current_page_item a, & a:hover {
+    			background: $yellow;
+    			color: #fff;
+    		}
+
+		    a {		
+		    	display: block;
+    			padding: 0 20px;    	
+		    	color: $yellow;
+		    	height: 66px;
+    			line-height: 66px;
+		    }
+
+		    @media screen and (max-width: 992px) {
+		    	display: block;
+			    position: relative;
+			    z-index: 10;
+			    background-color: $blue;
+		    }
+		}
+
+		#burger-menu {
+		    display: none;
+		    cursor: pointer;
+		    position: absolute;
+		    top: 50%;		    
+		    right: 50%;
+		    transform: translate(35%, -50%);
+
+		    .bar1, .bar2, .bar3 {
+			    width: 35px;
+			    height: 5px;
+			    background-color: $yellow;
+			    margin: 6px 0;
+			    transition: 0.4s;
+			}
+
+			&.change .bar1 {
+			    transform: rotate(-45deg) translate(-9px, 6px);
+			}
+
+			&.change .bar2 {
+			    opacity: 0;
+			}
+
+			&.change .bar3 {
+			    transform: rotate(45deg) translate(-8px, -8px);
+			}
+
+			@media screen and (max-width: 992px) {
+    			display: block;
+    		}
+		}
+	}
+}
